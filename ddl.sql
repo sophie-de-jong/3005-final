@@ -1,3 +1,4 @@
+-- This is the DDL file for the Final Project of TEAM 10 (Alex De Meo, Sophie De Jong, Justin Koops)
 CREATE TABLE Member(
     MemberID INT SERIAL UNIQUE PRIMARY KEY,
     FirstName TEXT,
