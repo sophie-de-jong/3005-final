@@ -1,4 +1,4 @@
-INSERT INTO Member (FirstName, LastName, PhoneNumber, email, Gender, DateOfBirth)
+INSERT INTO Member (FirstName, LastName, PhoneNumber, Email, Gender, DateOfBirth)
 VALUES
 ('Sophers', 'de Jophers', 6135550101, 'sophers.dejophers@email.com', 'Female', '1998-04-12'),
 ('Alex', 'de Meo', 6135550103, 'alex.demeo@email.com', 'Male', '2000-01-15'),
