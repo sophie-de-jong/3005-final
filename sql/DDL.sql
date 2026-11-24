@@ -74,7 +74,7 @@ CREATE TABLE HealthMetric(
     WeightMetric NUMERIC,
     HeartRate NUMERIC,
     BloodPressure NUMERIC,
-    CreatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    CreatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (MemberID) REFERENCES Member (MemberID)
 );
 
