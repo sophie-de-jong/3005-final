@@ -4,7 +4,7 @@ CREATE TABLE Member(
     FirstName TEXT,
     LastName TEXT,
     PhoneNumber TEXT UNIQUE,
-    email TEXT UNIQUE,
+    Email TEXT UNIQUE,
     Gender TEXT,
     DateOfBirth DATE 
 );
